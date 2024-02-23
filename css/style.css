@@ -1,0 +1,301 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Archivo, sans-serif;
+    color: white;
+}
+p {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+main{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1% 3%;
+    background-color: #020408;
+    border-bottom: inset 2px #08142b;
+    
+}
+nav img{
+    width: 10%;
+    height: 10%;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+nav ul li{
+    padding: 2% 5%;
+    border-right: solid 2px white;
+}
+
+nav ul li:last-child{
+    border-right: unset;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #15273c;
+}
+
+h2{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 900;
+    background-color: #020408;
+    margin: 2% 0%;
+    padding: 0.5% 3.5%;
+    border-radius: 30px;
+}
+.menuvertical li{
+    display: flex;
+    padding: 15px 0px;
+    margin: 0px 10px;
+    background-color: #0a101d;
+    border-right: unset;
+    border-bottom: solid 2px white;
+    justify-content: center;
+}
+
+.menuvertical li:last-child{
+    border-bottom: unset;
+}
+
+.menuvertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    background-color: #0a101d;
+}
+
+nav li:hover .menuvertical{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#contenthome ul{
+    border-radius: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+#contenthome li{
+    background-color: #020408;
+    border-bottom: inset 3px #08142b;
+    border-radius: 5%;
+    padding: 25px 25px;
+    margin: 3%;
+}
+
+#contenthome img{
+border-radius: 2%;
+height: 250px;
+width: 350px;
+}
+
+#contentcontact{
+    display: flex;
+    justify-content: center;
+}
+
+#contentcontact input{
+    color: #020408;
+    display: block;
+    margin: 10px 0px;
+    width: 50%;
+
+}
+
+#contentcontact textarea{
+width: 100%;
+height: 500px;
+}
+
+
+
+#contentcontact form{
+    background-color: #020408 ;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 1% 2%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height: 50%;
+    width: 50%;
+
+}
+#contentnews{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 3fr 5fr;
+    justify-content: center;
+    row-gap: 10px;
+    margin-bottom: 2% ;
+}
+
+.content ul{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+.content li{
+    margin-right: 4%;
+    margin-bottom: 2%;
+    border-bottom: inset 3px #08142b;
+    background-color: #020408;
+    border-radius: 10px;
+    padding: 0.5% 1.4%;
+}
+
+.content img{
+    width: 150px;
+    height: 150px;
+}
+
+.titlegun{
+    display: flex;
+    justify-content: center;
+
+}
+
+.contentgun{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.contentgun img{
+    width: 500px;
+    height: 450px;
+
+}
+
+.contentgun table{
+    background-color: #020408;
+    padding: 0px 10px;
+    margin: 5px 0px ;
+    border-radius: 10px;
+}
+
+.contentgun td{
+    padding: 5px 5px;
+
+}
+footer{
+    display: flex;
+    background-color: #020408;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+
+
+}
+
+footer p{
+    padding: 30px 30px;
+
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer li{
+    margin: 0% 10%;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+    margin-top: 30px;
+}
+
+#bootstrap-imagen img{
+    width: 300px;
+    height: 200px;
+}
+
+@media (max-width: 420px) {
+
+    nav img{
+        width: 45%;
+        height: 45%;
+    }
+
+    nav{
+        flex-direction: column;     
+    }
+
+    nav ul{
+        margin-top: 20px;
+        justify-content: center;
+    }
+
+
+    a {
+        font-size: 17px;
+    }
+
+    #navhome li{
+
+        padding: 0% 4%;
+    }
+
+    #contenthome img{
+        height: 200px;
+        width: 300px;
+    }
+    
+    .content img{
+        width: 100px;
+        height: 100px;
+    }
+    .contentgun{
+        display: block;
+        
+    }
+    .contentgun img{
+        width: 300px;
+        height: 300px;
+    }
+
+    #contentcontact form{
+    width: 100%;
+
+    }
+
+    .contentgun table{
+        display: flex;
+        align-content: center;
+    }
+    
+}
