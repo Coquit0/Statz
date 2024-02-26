@@ -127,8 +127,9 @@ width: 350px;
 }
 
 #contentcontact textarea{
-width: 100%;
-height: 500px;
+    color: #020408;
+    width: 100%;
+    height: 500px;
 }
 
 
