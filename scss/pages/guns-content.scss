@@ -1,0 +1,23 @@
+.contentgun{
+
+    display: flex;
+    justify-content: center;
+
+    img{
+        width: 500px;
+        height: 450px;
+    
+    }
+
+    table{
+        background-color: #020408;
+        padding: 0px 10px;
+        margin: 5px 0px ;
+        border-radius: 10px;
+    }
+    
+    td{
+        padding: 5px 5px;
+    
+    }
+}
