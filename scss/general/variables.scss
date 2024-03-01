@@ -1,0 +1,10 @@
+$primary-color: #020408;
+$secondary-color: white;
+$tertiary-color: #15273c;
+$fourth-color: #08142b;
+
+@keyframes guns-effects{
+    0% {transform: scale(1, 1);}
+    15% {transform: scale(1.5, 1.5);}
+    100% {transform: scale(1, 1);}
+}

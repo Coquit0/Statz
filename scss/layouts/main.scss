@@ -13,14 +13,14 @@ a {
 }
 
 body {
-    background-color: #15273c;
+    background-color: $tertiary-color;
 }
 
 h2{
     display: inline-block;
     font-size: 20px;
     font-weight: 900;
-    background-color: #020408;
+    background-color: $primary-color;
     margin: 2% 0%;
     padding: 0.5% 3.5%;
     border-radius: 30px;

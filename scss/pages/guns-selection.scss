@@ -12,14 +12,22 @@
     li{
         margin-right: 4%;
         margin-bottom: 2%;
-        border-bottom: inset 3px #08142b;
-        background-color: #020408;
+        border-bottom: inset 3px $fourth-color;
+        background-color: $primary-color;
         border-radius: 10px;
         padding: 0.5% 1.4%;
+        overflow: hidden;
     }
 
     img{
         width: 150px;
         height: 150px;
+        &:hover{
+            animation-name: guns-effects;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in;
+            animation-duration: 10s;
+            animation-delay: 0s;
+        }
     }
 }
