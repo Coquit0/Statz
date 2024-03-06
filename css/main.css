@@ -31,7 +31,7 @@ a {
 }
 
 body {
-  background-color: #15273c;
+  background-image: linear-gradient(to bottom, #020408, #15273c, #020408);
 }
 
 h2 {
@@ -244,12 +244,12 @@ footer img {
 }
 
 @media (max-width: 420px) {
+  nav {
+    flex-direction: column;
+  }
   nav img {
     width: 45%;
     height: 45%;
-  }
-  nav {
-    flex-direction: column;
   }
   nav ul {
     margin-top: 20px;
