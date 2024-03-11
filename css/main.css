@@ -216,12 +216,28 @@ footer img {
   color: #020408;
   display: block;
   margin: 10px 0px;
-  width: 50%;
+  width: 200px;
 }
 #contentcontact form textarea {
   color: #020408;
   width: 100%;
   height: 500px;
+}
+#contentcontact #inputs-contact {
+  display: flex;
+  justify-content: space-between;
+}
+#contentcontact #inputs-contact input {
+  height: 30px;
+  background-color: #08142b;
+  color: white;
+  border: inset 0.5px white;
+  transition: all 0.5s;
+}
+#contentcontact #inputs-contact input:hover {
+  background-color: white;
+  color: #15273c;
+  border: inset 0.5px #15273c;
 }
 
 .titlegun {
@@ -275,6 +291,10 @@ footer img {
   }
   #contentcontact form {
     width: 100%;
+  }
+  #inputs-contact {
+    flex-direction: column;
+    align-items: center;
   }
   .contentgun table {
     display: flex;
