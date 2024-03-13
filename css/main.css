@@ -34,7 +34,7 @@ body {
   background-image: linear-gradient(to bottom, #020408, #15273c, #020408);
 }
 
-h2 {
+h1 {
   display: inline-block;
   font-size: 20px;
   font-weight: 900;
@@ -178,6 +178,14 @@ footer img {
   animation-duration: 10s;
   animation-delay: 0s;
 }
+.content h2 {
+  font-size: 15px;
+}
+
+.backgroundbanner {
+  display: flex;
+  justify-content: center;
+}
 
 .contentgun {
   display: flex;
@@ -281,6 +289,10 @@ footer img {
   .content img {
     width: 100px;
     height: 100px;
+  }
+  .backgroundbanner img {
+    height: 90%;
+    width: 90%;
   }
   .contentgun {
     display: block;
